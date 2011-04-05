@@ -1,0 +1,56 @@
+
+ru:
+
+
+  number:
+    currency:
+      format:
+        unit:      "Руб"
+        precision: 2
+        separator: "."
+        delimiter: ","
+        format:    "%n%u"
+#END:currency
+
+#START:layout
+  layouts:
+    application:
+      title:       "Книжный магаз"
+      home:        "Начало"
+      questions:   "Вопросы"
+      news:        "Новости"
+      contact:     "Контакты"
+#END:layout
+
+#START:cart
+  carts:
+    cart:
+      title:       "Ваша корзина"
+      empty:       "Очистить корзину"
+      checkout:    "Оформить заказ"
+#END:cart
+
+#START:main
+  store:
+    index:
+      title_html:  "Каталог книжек"
+      add_html:    "Добавить в корзину"
+#END:main
+
+#START:checkout
+  orders:
+    new:
+      legend:       "Введите инф"
+    form:
+      name:         "Имя"
+      address_html: "Адрес"
+      email:        "Мыло"
+      pay_type:     "Как будете платить?"
+      pay_prompt_html: "Выбрать"
+      submit:       "Подтвердить"
+#END:checkout
+
+#START:flash
+  thanks:          "Спасибо за заказ"
+#END:flash
+

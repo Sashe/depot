@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<!-- START:stylesheet -->
+  <%= stylesheet_link_tag "scaffold" %>
+  <%= stylesheet_link_tag "depot", :media => "all" %><!-- <label id="code.slt"/> -->
+<!-- END:stylesheet -->
+  <title>Pragprog Books Online Store</title>
+   <% if notice %> 
+    <p id="notice"><%= notice %></p> 
+  <% end %>
+  <%= yield %>
+  
+  </body>
+</html>
